@@ -1,0 +1,137 @@
+body{ font-family: "Fuente c4";
+background-color: black;
+margin: 0%;
+}
+@font-face {
+    font-family: Fuente c4;
+    src: url(../fuente/Eveleth\ Clean\ Regular.otf);
+}
+h1{font-size: 3rem;}
+h2{font-size: 1.7rem;}
+h3{font-size: 1.1rem;
+justify-content: center;
+text-align:left
+}
+h4{font-size: 1.0em;}
+p{font-size: 1.0.em;}
+a{font-family: "Fuente c4";
+font-size: 0.8rem;}
+
+.somosc4{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    justify-content: space-between;
+    align-items: center;  
+}
+.somosc4__logo{
+    margin: 0%;
+    padding: 4px 20px;
+   align-items: center;
+   justify-content: center;
+   height: 60px;
+   width: 60px;
+}
+header{background-color: rgb(220,220,220);
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+header a{ padding: 5px 19px;
+font-weight: bold;
+color: red;
+text-decoration: none;
+
+ }
+ .medium{
+    height: 400px;
+    width: 2000px;
+    background-color: white;
+    margin: 0%;
+    padding: 25px 25px;
+ }
+ .somosc4__imagenes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    padding: 0px ;
+    }
+ img{
+    justify-content: center;
+    width: 300px;
+    height: 500%;
+ }
+ #banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 700px;
+    width: 2050px;
+    background-image:url("../imagenes/mimaki.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner__titulo{
+    background-color: rgba(0, 0, 0, 0.514) ;
+    border-radius: 10px;
+    color: red;
+    height: 100px;
+    margin: 16px;
+    padding: 1px 12px 19px 10px;
+    text-align: center center;
+    align-items: center center;
+    justify-content: center center;
+}
+.banner__subtitulo{ font-size: 38px;
+    text-decoration:underline ;
+    font-weight: bold;
+    border-radius:10px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 1px 12px 4px 13px;
+}
+.lista{font-size: 1.1rem;
+    display: flex;
+    border-radius: 10px;
+background-color: rgba(245, 245, 220, 0.445);
+flex-direction: column;
+    align-items: center;
+justify-content: center;
+margin: 13px;
+padding: 10px 15px 15px 15px;
+color: black;
+}
+.banner__boton{font-size: 22px;
+    font-weight: bold;
+    padding: 1px 12px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin: 20px;
+}
+
+.somosc4__titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line:underline
+}
+.pie{
+    color: white;
+    width: 2000px;
+}
+.pie__copy{display: flex;
+align-items: center;
+justify-content: center;
+margin: 0%;
+padding: 1%;
+font-size: 0.7rem;
+font-weight: bold;
+}
