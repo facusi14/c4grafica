@@ -67,13 +67,27 @@ border-radius: 20px;
     }
     .caja {display: grid;
     width: 2050px;
-    height: 500px;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-areas: ""
-    ""
-    "";
-    align-items: center;
+    height: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: "vision metas valores "
+    "vision metas valores"
+    "vision metas valores";
     text-align: center;
+    background-color: rgb(236, 27, 27);
+    color: white;
+    }
+    .vision{
+        grid-area: vision;
+        height: 200px;
+    }
+    .metas{grid-area: metas;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .valores{grid-area: valores;
     }
     #abajo{background-color: rgb(0, 0, 0);
         width: 2050px;
