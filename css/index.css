@@ -53,7 +53,7 @@ text-decoration: none;
     align-items: center;
     color: white;
     height: 800px;
-    width: 2050px;
+    width: 100%;
     background-image:url("../imagenes/mimaki.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,7 +102,7 @@ color: black;
 }
 .medium{
     height: 400px;
-    width: 2000px;
+    width: 100%;
     background-color: white;
     margin: 0%;
     padding: 25px 25px;
@@ -128,7 +128,7 @@ color: black;
     }
 .pie{
     color: white;
-    width: 2000px;
+    width: 100%;
 }
 .pie__copy{display: flex;
 align-items: center;
@@ -151,7 +151,7 @@ padding: 70px 10px 10px 10px;}
     background-color: rgba(212, 240, 240, 0.63);}
     .banner__subtitulo:hover{width: 70%;
         background-color: rgba(212, 240, 240, 0.63);}
-        .lista:hover{width: 17%;
+        .lista:hover{width: 17%; width: 20%;
             background-color: #d4f0f0a1;}
 .banner__boton:hover{width: 12%;
     background-color:rgba(224, 11, 188, 0.747);}
