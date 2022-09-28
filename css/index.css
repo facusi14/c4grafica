@@ -1,3 +1,4 @@
+/* ESTILOS BASICOS */
 body{ font-family: "Fuente c4";
 background-color: black;
 margin: 0%;
@@ -43,25 +44,7 @@ color: rgb(224, 11, 189);
 text-decoration: none;
 
  }
- .medium{
-    height: 400px;
-    width: 2000px;
-    background-color: white;
-    margin: 0%;
-    padding: 25px 25px;
- }
- .somosc4__imagenes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:center;
-    padding: 0px ;
-    }
- img{
-    justify-content: center;
-    width: 300px;
-    height: 500%;
- }
+
  #banner{
     display: flex;
     flex-direction: column;
@@ -69,7 +52,7 @@ text-decoration: none;
     text-align: center;
     align-items: center;
     color: white;
-    height: 740px;
+    height: 800px;
     width: 2050px;
     background-image:url("../imagenes/mimaki.jpg");
     background-repeat: no-repeat;
@@ -117,12 +100,32 @@ color: black;
     background-color: rgb(224, 11, 189);
     margin: 20px;
 }
+.medium{
+    height: 400px;
+    width: 2000px;
+    background-color: white;
+    margin: 0%;
+    padding: 25px 25px;
+ }
+ 
+ img{
+    justify-content: center;
+    width: 300px;
+    height: 500%;
+ }
 .somosc4__titulo{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration-line:underline
 }
+.somosc4__imagenes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    padding: 0px ;
+    }
 .pie{
     color: white;
     width: 2000px;
@@ -134,4 +137,39 @@ margin: 0%;
 padding: 1%;
 font-size: 0.7rem;
 font-weight: bold;
+}
+/* TRANSICIONES CSS */
+.somosc4{transition: all 2sg;
+transition-timing-function:ease;}
+.somosc4__logo:hover{width:100px;height: 90px;
+background-color:rgba(224, 11, 188, 0.747);
+padding: 70px 10px 10px 10px;}
+.banner{transition: all 1s;
+    transition-timing-function: ease;
+    }
+    .banner__titulo:hover{width: 70%;
+    background-color: rgba(212, 240, 240, 0.63);}
+    .banner__subtitulo:hover{width: 70%;
+        background-color: rgba(212, 240, 240, 0.63);}
+        .lista:hover{width: 17%;
+            background-color: #d4f0f0a1;}
+.banner__boton:hover{width: 12%;
+    background-color:rgba(224, 11, 188, 0.747);}
+
+    .somosc4__titulo:hover{
+        height: 60px; width: 2000px;
+    background-color:rgba(212, 240, 240, 0.63) ;
+border-radius: 10px;}
+    .medium{transition-property: all;
+        transition-duration: 1s;
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;}
+        
+.dunlop:hover{width: 25%;
+}
+.fox:hover{width: 25%;
+}
+.natura:hover{width: 16%;
+}
+.leatt:hover{width: 25%;
 }
