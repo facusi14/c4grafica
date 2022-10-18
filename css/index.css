@@ -1,137 +1,268 @@
 /* ESTILOS BASICOS */
-body{ font-family: "Fuente c4";
-background-color: #260E17;
-margin: 0%;
+body {
+  font-family: "Fuente c4";
+  background-color: #260e17;
+  margin: 0%;
 }
 @font-face {
-    font-family: Fuente c4;
-    src: url(../fuente/Eveleth\ Clean\ Regular.otf);
+  font-family: Fuente c4;
+  src: url(../fuente/Eveleth\ Clean\ Regular.otf);
 }
-h1{font-size: 3rem;}
-h2{font-size: 1.7rem;}
-h3{font-size: 1.1rem;
-justify-content: center;
-text-align:left
+h1 {
+  font-size: 3rem;
 }
-h4{font-size: 1.0em;}
-p{font-size: 1.0.em;}
-a{font-family: "Fuente c4";
-font-size: 0.8rem;}
+h2 {
+  font-size: 1.7rem;
+}
+h3 {
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: left;
+}
+h4 {
+  font-size: 1em;
+}
+p {
+  font-size: 1em;
+}
+a {
+  font-family: "Fuente c4";
+  font-size: 0.8rem;
+}
 
-.somosc4{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
-    justify-content: space-between;
-    align-items: center;  
+.somosc4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
 }
-.somosc4__logo{
-    margin: 0%;
-    padding: 0.25rem 1.25rem;
-   align-items: center;
-   justify-content: center;
-   height: 3.75rem;
-   width: 3.75em;
+.somosc4__logo {
+  margin: 0%;
+  padding: 0.25rem 1.25rem;
+  align-items: center;
+  justify-content: center;
+  height: 3.75rem;
+  width: 3.75em;
 }
-header{background-color: #F2F2F2;
-    position: fixed;
-    width: 100%;
-    height: 4.375em;
+header {
+  background-color: #f2f2f2;
+  position: fixed;
+  width: 100%;
+  height: 4.375em;
 }
-header a{ padding: 0.3125em 1.1875em;
-font-weight: bold;
-color: #8C164D;
-text-decoration: none;
- }
- #banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: 50em;
-    width: 100%;
-    background-image: url(/imagenes/mimaki.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+header a {
+  padding: 0.3125em 1.1875em;
+  font-weight: bold;
+  color: #8c164d;
+  text-decoration: none;
 }
-.banner__titulo{
-    border-radius: 10px;
-   color:  #F2F2F2;
-    height: 6.25em;
-    margin-top: 2em;
-    padding: 0.3em;
-    text-align: center center;
-    align-items: center center;
-    justify-content: center center;
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 50em;
+  width: 100%;
+  background-image: url(/imagenes/mimaki.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-.banner__subtitulo{ font-size: 2.375em;
-    text-decoration:underline ;
-    font-weight: bold;
-    border-radius:10px;
-    justify-content: space-between;
-    text-align: center;
-    margin: 1.25em;
-    background-color: #260e17bd;
-    padding: 0.0625em 0.75em 0.25em 0.8125em;
-    color: #F2F2F2;
+
+.banner__titulo {
+  border-radius: 10px;
+  color: #f2f2f2;
+  height: 6.25em;
+  margin-top: 2em;
+  padding: 0.3em;
+  text-align: center center;
+  align-items: center center;
+  justify-content: center center;
 }
-.lista{font-size: 1.1em;
-    display: flex;
-    border-radius: 0.625em;
-background-color: #f2f2f28e;
-flex-direction: column;
-    align-items: center;
-justify-content: center;
-margin: 0.8125em;
-padding: 0.625em 0.9375em 0.9375em 0.9375em;
-color: #8C164D;
+.banner__subtitulo {
+  font-size: 2.375em;
+  text-decoration: underline;
+  font-weight: bold;
+  border-radius: 10px;
+  justify-content: space-between;
+  text-align: center;
+  margin: 1.25em;
+  background-color: #260e17bd;
+  padding: 0.0625em 0.75em 0.25em 0.8125em;
+  color: #f2f2f2;
 }
-.banner__boton{font-size: 1.1875em;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 0.625em 0.75em;
-    border-radius: 0.625em;
-    color: #F2F2F2;
-    background-color: #8C164D;
-    margin: 1.25em;
+.lista {
+  font-size: 1.1em;
+  display: flex;
+  border-radius: 0.625em;
+  background-color: #f2f2f28e;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8125em;
+  padding: 0.625em 0.9375em 0.9375em 0.9375em;
+  color: #8c164d;
 }
-.medium{
-    height: 25em;
-    width: 100%;
-    background-color: white;
-    padding-top: 1em;
- }
- 
- img{
-    justify-content: center;
-    width: 18.75em;
-    height: 500%;
- }
-.somosc4__titulo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration-line:underline;
-    color:  #8C164D;
+.banner__boton {
+  font-size: 1.1875em;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.625em 0.75em;
+  border-radius: 0.625em;
+  color: #f2f2f2;
+  background-color: #8c164d;
+  margin: 1.25em;
 }
-.somosc4__imagenes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:center;
-    padding: 0em ;
-    }
-.pie{
-    color: #F2F2F2;
-    width: 100%;
+.medium {
+  height: 25em;
+  width: 100%;
+  background-color: white;
+  padding-top: 1em;
 }
-.pie__copy{display: flex;
-align-items: center;
-justify-content: center;
-margin: 0%;
-padding: 1%;
-font-size: 0.7em;
-font-weight: bold;
+
+img {
+  justify-content: center;
+  width: 18.75em;
+  height: 500%;
+}
+.somosc4__titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration-line: underline;
+  color: #8c164d;
+}
+.somosc4__imagenes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0em;
+}
+.pie {
+  color: #f2f2f2;
+  width: 100%;
+}
+.pie__copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 1%;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+/*TRANSFORMACIONES-ANIMACIONES*/
+.somosc4__logo:hover {
+  transform: scale(1.5);
+  transition: all 2s;
+  height: 46px;
+  width: 46px;
+  background-color: #8c164d;
+}
+header a:hover {
+  color: #da116e;
+}
+.banner__titulo:hover {
+  transform: translate(1%);
+  background: #8c164d;
+  transition: all 5s;
+  width: 100%;
+}
+.banner__subtitulo:hover {
+  transform: translate(100%);
+
+  background: #8c164d93;
+  transition: all 3s;
+  width: 80%;
+  transform: translate(10%);
+}
+.lista:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+}
+.banner__boton:hover {
+  transform: scale(1.5);
+  transition: all 1s;
+  background: #260e17;
+}
+.medium:hover h2 {
+  transform: translate(100%);
+  background: #8c164d;
+  transition: all 3s;
+  width: 35%;
+  color: #f2f2f2;
+}
+.dunlop:hover {
+  transform: translate(1%);
+  width: 20%;
+}
+.fox:hover {
+  transform: translate(1%);
+  width: 20%;
+}
+.natura:hover {
+  transform: translate(1%);
+  width: 17%;
+}
+.leatt:hover {
+  transform: translate(1%);
+  width: 20%;
+}
+/*MEDIA QUARIES PARA TABLET*/
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .leatt {
+    width: 10em;
+  }
+  .fox {
+    width: 10em;
+  }
+  .natura {
+    width: 10em;
+  }
+  /*TRANSFORMACIONES-ANIMACIONES*/
+  .banner__titulo:hover {
+    height: 120px;
+    width: 80%;
+  }
+  .banner__subtitulo:hover {
+    transform: translate(50%);
+    transition: all 3s;
+    width: 80%;
+    transform: translate(10%);
+  }
+  .lista:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+  }
+  .banner__boton:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+    background: #260e17;
+  }
+  .dunlop:hover {
+    transform: none;
+    width: 20%;
+  }
+  .fox:hover {
+    transform: none;
+  }
+  .natura:hover {
+    transform: none;
+  }
+  .leatt:hover {
+    transform: none;
+  }
+}
+
+/*MEDIA QUARIES PARA CELULAR*/
+@media (max-width: 767px) {
 }

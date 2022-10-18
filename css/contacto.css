@@ -1,0 +1,237 @@
+body {
+  font-family: "Fuente c4";
+  margin: 0%;
+  padding: 0%;
+}
+@font-face {
+  font-family: Fuente c4;
+  src: url(../fuente/Eveleth\ Clean\ Regular.otf);
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.7em;
+}
+h3 {
+  font-size: 1.8em;
+}
+h4 {
+  font-size: 1.2em;
+  text-decoration: underline;
+  color: #f2f2f2;
+}
+p {
+  font-size: 0.9em;
+}
+a {
+  font-family: "Fuente c4";
+  font-size: 0.8rem;
+}
+label {
+  font-size: 1rem;
+}
+header {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 4.375rem;
+}
+header a {
+  padding: 0.3125rem 1.1875rem;
+  font-weight: bold;
+  color: #8c164d;
+  text-decoration: none;
+}
+.somosc4 {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.somosc4__logo {
+  margin: 0%;
+  padding: 0.25rem 1.25rem;
+  font-weight: bold;
+  font-size: 1.875rem;
+  align-items: center;
+  justify-content: center;
+  height: 3.75rem;
+  width: 3.75rem;
+}
+.imagen {
+  width: 100%;
+  height: 30em;
+  background-image: url(/imagenes/sucursal.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.imagen__titulo {
+  color: #f2f2f2;
+  background-color: #260e17d8;
+  width: 61rem;
+  height: 6rem;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.informacion {
+  background-color: #8c164d;
+  padding-top: 0.0625rem;
+  width: 100%;
+  height: 45rem;
+}
+.informacion__titulo {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lista {
+  display: flex;
+  flex-direction: row;
+  margin: 0.7rem;
+  justify-content: center;
+}
+.direccion {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 0.1875rem solid #f2f2f2;
+  height: 12.5rem;
+  padding: 0.625rem;
+}
+.direccion p {
+  padding: 10px;
+}
+.telefono {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.625rem;
+  height: 12.5rem;
+  width: 18.75rem;
+  text-align: center;
+  border: 3px solid #f2f2f2;
+  padding: 0.625rem;
+}
+.mail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.625rem;
+  height: 12.5rem;
+  width: 25rem;
+  text-align: center;
+  border: 3px solid #f2f2f2;
+  padding: 0.625rem;
+}
+.horario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.625rem;
+  height: 12.5rem;
+  width: 18.75rem;
+  text-align: center;
+  border: 3px solid #f2f2f2;
+  padding: 0.625rem;
+}
+.horario h4 {
+  padding-top: 0.0625rem;
+}
+.horario p {
+  padding-top: 0.0625rem;
+}
+.mapa {
+  display: flex;
+  width: 37.5rem;
+  height: 21.875rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 40.625rem;
+  box-shadow: 1px 1px 1px 2px #8c164db6;
+}
+.pie {
+  color: #f2f2f2;
+  width: 100%;
+  background-color: #260e17;
+}
+.pie__copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 1%;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+/*TRANSFORMACIONES-ANIMACIONES*/
+.somosc4__logo:hover {
+  transform: scale(1.5);
+  transition: all 2s;
+  height: 46px;
+  width: 46px;
+  background-color: #8c164d;
+}
+header a:hover {
+  color: #da116e;
+}
+.imagen__titulo:hover {
+  transform: translate(2%);
+  background: #8c164d;
+  transition: all 5s;
+  width: 55%;
+}
+.direccion:hover {
+  transform: translate(1%);
+  width: 30%;
+  background-color: #260e17d8;
+  color: #f2f2f2;
+}
+.telefono:hover {
+  transform: translate(1%);
+  width: 30%;
+  background-color: #260e17d8;
+  color: #f2f2f2;
+}
+.mail:hover {
+  transform: translate(1%);
+  width: 30%;
+  background-color: #260e17d8;
+  color: #f2f2f2;
+}
+.horario:hover {
+  transform: translate(1%);
+  width: 30%;
+  background-color: #260e17d8;
+  color: #f2f2f2;
+}
+/*MEDIA QUARIES PARA TABLET*/
+@media (max-width: 1024px) {
+  h4 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+  .mapa {
+    margin-left: 15rem;
+  }
+  .horario h4 {
+    padding-top: 1rem;
+  }
+  /*TRANSFORMACIONES-ANIMACIONES*/
+  .imagen__titulo:hover {
+    width: 55%;
+    height: 30%;
+  }
+}

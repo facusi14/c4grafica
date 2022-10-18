@@ -1,121 +1,187 @@
-body{ font-family: "Fuente c4";
-    margin: 0%;
-    }
-    @font-face {
-        font-family: Fuente c4;
-        src: url(../fuente/Eveleth\ Clean\ Regular.otf);
-    }
-    h1{font-size: 3.0em;}
-    h2{font-size: 1.7em;}
-    h3{font-size: 1.1em;}
-    h4{font-size: 0.8em; text-decoration: underline;}
-    p{font-size: 0.8em;}
-    a{font-family: "Fuente c4";
-        font-size: 0.8rem;
-    }
-    header{background-color: #F2F2F2;
-        position: fixed;
-        width: 100%;
-        height: 70px;
-    }
-    header a{ padding: 5px 19px;
-        font-weight: bold;
-        color:  #8C164D;
-        text-decoration: none;}
- .somosc4{
-        margin: 0%;
-        padding: 0%;
-        display: flex;
-        flex-direction: row;
-        justify-content:space-between;
-        justify-content: space-between;
-        align-items: center;  
-    }
-    .somosc4__logo{ margin: 0%;
-    padding: 4px 20px;
-   font-weight: bold;
-   font-size: 30px;
-   align-items: center;
-   justify-content: center;
-   height: 60px;
-   width: 60px;
-    }
-    #info{
-        display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 750px;
-    width: 100%;
-    background-image:url(../imagenes/minolta.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    }
-    .info__titulo{color: #F2F2F2;
-    background-color: #260e17bd;
-border-radius: 20px;
+body {
+  font-family: "Fuente c4";
+  margin: 0%;
 }
-    .info__texto{
-    background-color: #260e17bd;
-    border-radius: 20px;
-    color: #F2F2F2;
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    width: 70%;
-    }
-    .caja {display: grid;
-    width: 100%px;
-    height: 220px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-areas: "vision metas valores "
+@font-face {
+  font-family: Fuente c4;
+  src: url(../fuente/Eveleth\ Clean\ Regular.otf);
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.1em;
+}
+h4 {
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+p {
+  font-size: 0.8em;
+}
+a {
+  font-family: "Fuente c4";
+  font-size: 0.8rem;
+}
+header {
+  background-color: #f2f2f2;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+}
+header a {
+  padding: 5px 19px;
+  font-weight: bold;
+  color: #8c164d;
+  text-decoration: none;
+}
+.somosc4 {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+}
+.somosc4__logo {
+  margin: 0%;
+  padding: 4px 20px;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+}
+#info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 750px;
+  width: 100%;
+  background-image: url(../imagenes/minolta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.info__titulo {
+  color: #f2f2f2;
+  background-color: #260e17bd;
+  border-radius: 20px;
+}
+.info__texto {
+  background-color: #260e17bd;
+  border-radius: 20px;
+  color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 70%;
+}
+.caja {
+  display: grid;
+  width: 100%px;
+  height: 13.75rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "vision metas valores "
     "vision metas valores"
     "vision metas valores";
-    text-align: center;
-    background-color:  #8C164D;
-    }
-    .vision{
-        grid-area: vision;
-        height: 200px;
-        color: #F2F2F2;
-    }
-    .metas{grid-area: metas;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        color: #F2F2F2;
-    }
-    .valores{grid-area: valores;
-        color: #F2F2F2;
-    }
-    #abajo{background-color: #260E17;
-        width: 100%;
-        height: 150px;
-    }
-    .pie{
-        color: #F2F2F2;
-        display: flex;
-        justify-content: space-around
-        }
-        .pie__direccion{
-            flex-direction: column;
-            text-align: center;
-        }
-        .pie__horario
-        {text-align: center;
-        }
-        .pie__tel{
-            text-align: center;
-        }
-        .pie__mail{
-            text-align: center;
-        }
-    .copy{
-        color:  #8C164D;
-    display: flex;
-justify-content: center;
-font-size: 1.0em;}
+  text-align: center;
+  background-color: #8c164d;
+}
+.vision {
+  grid-area: vision;
+  height: 200px;
+  color: #f2f2f2;
+}
+.metas {
+  grid-area: metas;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #f2f2f2;
+}
+.valores {
+  grid-area: valores;
+  color: #f2f2f2;
+}
+#abajo {
+  background-color: #260e17;
+  width: 100%;
+  height: 150px;
+}
+.pie {
+  color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+}
+.pie__direccion {
+  flex-direction: column;
+  text-align: center;
+}
+.pie__horario {
+  text-align: center;
+}
+.pie__tel {
+  text-align: center;
+}
+.pie__mail {
+  text-align: center;
+}
+.copy {
+  color: #8c164d;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+/*TRANSFORMACIONES-ANIMACIONES*/
+.somosc4__logo:hover {
+  transform: scale(1.5);
+  transition: all 2s;
+  height: 46px;
+  width: 46px;
+  background-color: #8c164d;
+}
+header a:hover {
+  color: #da116e;
+}
+.info__titulo:hover {
+  transform: translate(1%);
+  background: #8c164d;
+  transition: all 3s;
+  width: 40%;
+}
+.info__texto:hover {
+  transform: scale(1);
+  background: #8c164d93;
+  transition: all 1s;
+  width: 55%;
+}
+.caja:hover {
+  background-color: #260e17;
+  color: #da116e;
+}
+/*MEDIA QUARIES PARA TABLET*/
+@media (max-width: 1024px) {
+  .vision p {
+    font-size: 0.65em;
+  }
+  .metas p {
+    font-size: 0.65em;
+  }
+  .valores p {
+    font-size: 0.6em;
+  }
+}
+/*MEDIA QUARIES PARA CELULAR*/
+@media (max-width: 767px) {
+}
