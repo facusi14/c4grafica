@@ -64,7 +64,7 @@ header a {
 #imagen {
   background-color: #8c164d;
   color: #f2f2f2;
-  background-image: url(/imagenes/presu2.jpg);
+  background-image: url("/imagenes/presu2.jpg");
   background-repeat: no-repeat;
   background-position: 1%;
   height: 40em;
