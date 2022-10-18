@@ -64,7 +64,7 @@ header a {
 .imagen {
   width: 100%;
   height: 30em;
-  background-image: url(/imagenes/sucursal.jpg);
+  background-image: url(../imagenes/sucursal.jpg);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
