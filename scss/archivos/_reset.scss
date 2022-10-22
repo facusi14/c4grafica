@@ -1,0 +1,27 @@
+body {
+  font-family: "Fuente c4";
+  background-color: #260e17;
+  margin: 0%;
+}
+@font-face {
+  font-family: Fuente c4;
+  src: url(../fuente/Eveleth\ Clean\ Regular.otf);
+}
+h1 {
+  font-size: $fontgrande;
+}
+h2 {
+  font-size: $fontgrande2;
+}
+h3 {
+  font-size: $fontmediana;
+}
+h4 {
+  font-size: $fontchica;
+}
+p {
+  font-size: $fontparrafo;
+}
+a {
+  font-size: $fonta;
+}

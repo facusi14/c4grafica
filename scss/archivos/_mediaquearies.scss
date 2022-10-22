@@ -1,0 +1,76 @@
+/*MEDIA QUARIES PARA TABLET*/
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .medium {
+    height: 16rem;
+  }
+  .imagen {
+    width: 10em;
+  }
+  /*TRANSFORMACIONES-ANIMACIONES*/
+  .banner__titulo:hover {
+    transform: translate(8%);
+    height: 120px;
+    width: 80%;
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+  }
+  .banner__subtitulo:hover {
+    transform: translate(50%);
+    transition: all 3s;
+    width: 80%;
+    transform: translate(10%);
+  }
+  .lista:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+  }
+  .banner__boton:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+    background: #260e17;
+  }
+  .dunlop:hover {
+    transform: none;
+    width: 20%;
+  }
+  .fox:hover {
+    transform: none;
+  }
+  .natura:hover {
+    transform: none;
+  }
+  .leatt:hover {
+    transform: none;
+  }
+}
+
+/*MEDIA QUARIES PARA CELULAR*/
+@media (max-width: 767px) {
+  .banner__titulo {
+    padding-top: 50px;
+    height: 8rem;
+  }
+  .banner__titulo:hover {
+    transform: translateY(20%);
+  }
+  .banner__subtitulo:hover {
+    transform: translateX(3%);
+  }
+  .medium {
+    height: 40rem;
+  }
+  .somosc4__imagenes {
+    display: flex;
+    flex-direction: column;
+  }
+  .imagen {
+    width: 30%;
+  }
+}

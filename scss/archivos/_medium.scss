@@ -1,0 +1,25 @@
+.medium {
+  height: 25em;
+  width: 100%;
+  background-color: white;
+  padding-top: 1em;
+  .somosc4__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    color: #8c164d;
+  }
+  .somosc4__imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0em;
+    .imagen {
+      justify-content: center;
+      width: 18.75em;
+      height: 500%;
+    }
+  }
+}

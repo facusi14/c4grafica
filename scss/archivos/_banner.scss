@@ -1,0 +1,57 @@
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 50em;
+  width: 100%;
+  background-image: url(../imagenes/mimaki.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .banner__titulo {
+    border-radius: 10px;
+    color: #f2f2f2;
+    height: 6.25em;
+    margin-top: 2.2em;
+    padding: 0.3em;
+    text-align: center center;
+    align-items: center center;
+    justify-content: center center;
+  }
+  .banner__subtitulo {
+    font-size: 2.375em;
+    text-decoration: underline;
+    font-weight: bold;
+    border-radius: 10px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1.25em;
+    background-color: #260e17bd;
+    padding: 0.0625em 0.75em 0.25em 0.8125em;
+    color: #f2f2f2;
+  }
+  .banner__lista {
+    font-size: 1.1em;
+    display: flex;
+    border-radius: 0.625em;
+    background-color: #f2f2f29a;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8125em;
+    padding: 0.625em 0.9375em 0.9375em 0.9375em;
+    color: #8c164d;
+  }
+  .banner__boton {
+    font-size: 1.1875em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.625em 0.75em;
+    border-radius: 0.625em;
+    color: #f2f2f2;
+    background-color: #8c164d;
+    margin: 1.25em;
+  }
+}

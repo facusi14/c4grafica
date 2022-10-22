@@ -31,35 +31,29 @@ a {
 label {
   font-size: 1rem;
 }
-header {
-  background-color: #f2f2f2;
-  width: 100%;
-  height: 4.375rem;
-}
-header a {
-  padding: 0.3125rem 1.1875rem;
-  font-weight: bold;
-  color: #8c164d;
-  text-decoration: none;
-}
 .somosc4 {
-  margin: 0%;
-  padding: 0%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #f2f2f2;
+  position: fixed;
   width: 100%;
+  height: 4.375em;
 }
 .somosc4__logo {
   margin: 0%;
   padding: 0.25rem 1.25rem;
-  font-weight: bold;
-  font-size: 1.875rem;
   align-items: center;
   justify-content: center;
   height: 3.75rem;
-  width: 3.75rem;
+  width: 3.75em;
+}
+.somosc4__menu a {
+  padding: 0.3125em 1.1875em;
+  font-weight: bold;
+  color: #8c164d;
+  text-decoration: none;
 }
 .imagen {
   width: 100%;
@@ -233,5 +227,25 @@ header a:hover {
   .imagen__titulo:hover {
     width: 55%;
     height: 30%;
+  }
+}
+/*MEDIA QUARIES PARA CELULAR*/
+@media (max-width: 767px) {
+  .imagen__titulo {
+    height: 8rem;
+    width: 80%;
+  }
+  .imagen__titulo:hover {
+    width: 70%;
+  }
+  .mapa {
+    width: 18rem;
+  }
+  .horario {
+    width: 100rem;
+  }
+  .horario:hover {
+    transform: translate(0%);
+    width: 100rem;
   }
 }

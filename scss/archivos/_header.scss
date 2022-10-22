@@ -1,0 +1,25 @@
+.somosc4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    height: 4.375em;
+  .somosc4__logo {
+    margin: 0%;
+    padding: 0.25rem 1.25rem;
+    align-items: center;
+    justify-content: center;
+    height: 3.75rem;
+    width: 3.75em;
+  }
+  .somosc4__menu{
+    .menu{
+      padding: 0.3125em 1.1875em;
+      font-weight: bold;
+      color: #8c164d;
+      text-decoration: none;}
+  }
+ }

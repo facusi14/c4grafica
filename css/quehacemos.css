@@ -20,42 +20,35 @@ h4 {
   text-decoration: underline;
 }
 p {
-  font-size: 1em;
+  font-size: 0.73em;
 }
 a {
   font-family: "Fuente c4";
   font-size: 0.8rem;
 }
-header {
-  background-color: #f2f2f2;
-  width: 100%;
-  height: 4.375rem;
-}
-header a {
-  padding: 0.3125rem 1.1875rem;
-  font-weight: bold;
-  color: #8c164d;
-  text-decoration: none;
-}
 .somosc4 {
-  margin: 0%;
-  padding: 0%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  justify-content: space-between;
   align-items: center;
+  background-color: #f2f2f2;
+  position: fixed;
   width: 100%;
+  height: 4.375em;
 }
 .somosc4__logo {
   margin: 0%;
   padding: 0.25rem 1.25rem;
-  font-weight: bold;
-  font-size: 1.875rem;
   align-items: center;
   justify-content: center;
   height: 3.75rem;
-  width: 3.75rem;
+  width: 3.75em;
+}
+.somosc4__menu a {
+  padding: 0.3125em 1.1875em;
+  font-weight: bold;
+  color: #8c164d;
+  text-decoration: none;
 }
 .contenedor {
   display: grid;
@@ -96,6 +89,7 @@ header a {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 1.25rem;
   background-color: #f2f2f2;
   color: #8c164d;
@@ -167,10 +161,10 @@ header a {
   background-image: url(../imagenes/lona5.jpg);
 }
 
-#abajo {
+.abajo {
   background-color: #260e17;
   width: 100%;
-  height: 9.375rem;
+  height: 8.5rem;
 }
 .pie {
   color: #f2f2f2;
@@ -194,7 +188,7 @@ header a {
   color: #8c164d;
   display: flex;
   justify-content: center;
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 /*TRANSFORMACIONES-ANIMACIONES*/
 .somosc4__logo:hover {
@@ -212,7 +206,7 @@ header a:hover {
   background: #8c164d;
   transition: all 5s;
   width: 18%;
-  height: 25%;
+  height: 40%;
   display: flex;
   text-align: center;
 }
@@ -277,10 +271,10 @@ header a:hover {
   .contenedor {
     grid-template-rows: 1fr 0.3fr 0.15fr 0.5fr 0.1fr;
   }
-  #abajo {
+  .abajo {
     height: 7.375rem;
   }
-  #abajo p {
+  .abajo p {
     font-size: 12px;
   }
   /*TRANSFORMACIONES-ANIMACIONES*/
@@ -293,4 +287,7 @@ header a:hover {
 
 /*MEDIA QUARIES PARA CELULAR*/
 @media (max-width: 767px) {
+  .abajo {
+    width: 56.7rem;
+  }
 }
