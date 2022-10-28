@@ -266,7 +266,7 @@ header a:hover {
 /*MEDIA QUARIES PARA CELULAR*/
 @media (max-width: 767px) {
   .banner {
-    height: 100em;
+    height: 70em;
   }
   .banner__titulo {
     padding-top: 50px;
