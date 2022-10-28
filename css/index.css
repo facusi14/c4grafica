@@ -54,7 +54,7 @@ a {
   color: #8c164d;
   text-decoration: none;
 }
-#banner {
+.banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -265,6 +265,8 @@ header a:hover {
 
 /*MEDIA QUARIES PARA CELULAR*/
 @media (max-width: 767px) {
+  .banner {
+  }
   .banner__titulo {
     padding-top: 50px;
     height: 8rem;
