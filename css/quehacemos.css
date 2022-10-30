@@ -291,7 +291,7 @@ header a:hover {
 /*MEDIA QUARIES PARA CELULAR*/
 @media (max-width: 767px) {
   .abajo {
-    width: 46.85rem;
+    width: 40rem;
     height: 10rem;
   }
   .contenedor {
