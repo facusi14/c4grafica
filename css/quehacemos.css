@@ -291,9 +291,13 @@ header a:hover {
 /*MEDIA QUARIES PARA CELULAR*/
 @media (max-width: 767px) {
   .abajo {
-    width: 40rem;
+    width: 46, 5rem;
     height: 10rem;
   }
+  .pie p {
+    font-size: 0.65rem;
+  }
+
   .contenedor {
     display: flex;
     flex-direction: column;

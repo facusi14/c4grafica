@@ -54,7 +54,7 @@ label {
   color: #8c164d;
   text-decoration: none;
 }
-#imagen {
+.imagen {
   background-color: #8c164d;
   color: #f2f2f2;
   background-image: url(../imagenes/presupuesto.jpg);
@@ -182,7 +182,7 @@ header a:hover {
     font-size: 0.8em;
   }
   p {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 }
 /*MEDIA QUARIES PARA CELULAR*/
@@ -195,7 +195,7 @@ header a:hover {
     width: 52%;
   }
   .abajo {
-    height: 8rem;
+    height: 12rem;
     padding-top: 1rem;
   }
 }
