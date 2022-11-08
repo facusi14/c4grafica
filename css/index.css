@@ -236,7 +236,7 @@ header a:hover {
   .banner__subtitulo:hover {
     transition: all 3s;
     width: 80%;
-    transform: translate(1%);
+    transform: translate(0.5%);
   }
   .lista:hover {
     transform: scale(1.1);
