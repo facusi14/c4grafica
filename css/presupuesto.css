@@ -198,4 +198,18 @@ header a:hover {
     height: 12rem;
     padding-top: 1rem;
   }
+  @media (max-width: 640px) {
+    .abajo {
+      display: flex;
+      flex-direction: column;
+      height: 22rem;
+    }
+    .pie {
+      flex-direction: column;
+    }
+    .imagen__titulo:hover {
+      transform: translate(2%);
+      width: 60%;
+    }
+  }
 }

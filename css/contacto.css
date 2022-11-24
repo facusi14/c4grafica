@@ -229,8 +229,19 @@ header a:hover {
     height: 30%;
   }
 }
+@media (max-width: 840px) {
+  h4 {
+    font-size: 0, 5em;
+  }
+  .mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 /*MEDIA QUARIES PARA CELULAR*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .imagen__titulo {
     height: 8rem;
     width: 80%;
@@ -239,7 +250,7 @@ header a:hover {
     width: 70%;
   }
   .mapa {
-    width: 18rem;
+    margin-left: 5rem;
   }
   .horario {
     width: 100rem;
@@ -247,5 +258,20 @@ header a:hover {
   .horario:hover {
     transform: translate(0%);
     width: 100rem;
+  }
+  @media (max-width: 640px) {
+    .imagen__titulo {
+      width: 90%;
+      height: 10rem;
+    }
+    .imagen__titulo:hover {
+      width: 85%;
+    }
+    .informacion {
+      height: 50rem;
+    }
+    .mapa {
+      margin-left: 1rem;
+    }
   }
 }

@@ -226,14 +226,14 @@ header a:hover {
   background: #e00c6f;
 }
 .imagen2:hover {
-  transform: scale(1.08);
+  transform: scale(0.9);
   transition: all 2s;
 }
 .parrafo3:hover {
   background: #e00c6f;
 }
 .imagen3:hover {
-  transform: scale(1.08);
+  transform: scale(0.9);
   transition: all 2s;
 }
 .lonas:hover {
@@ -243,7 +243,7 @@ header a:hover {
   background: #e00c6f;
 }
 .imagen4:hover {
-  transform: scale(1.08);
+  transform: scale(0.9);
   transition: all 2s;
 }
 /*MEDIA QUARIES PARA TABLET*/
@@ -343,5 +343,15 @@ header a:hover {
   }
   .imagen4 {
     background-size: 280%;
+  }
+  @media (max-width: 640px) {
+    .abajo {
+      display: flex;
+      flex-direction: column;
+      height: 22rem;
+    }
+    .pie {
+      flex-direction: column;
+    }
   }
 }
