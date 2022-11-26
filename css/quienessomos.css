@@ -219,6 +219,18 @@ header a:hover {
     }
   }
 }
+@media (max-width: 500px) {
+  .info__titulo {
+    width: 60%;
+  }
+  .info__titulo:hover {
+    translate: (0%);
+    width: 60%;
+  }
+  .copy {
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 450px) {
   .caja {
     height: 22rem;

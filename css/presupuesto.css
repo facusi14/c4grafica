@@ -212,4 +212,10 @@ header a:hover {
       width: 60%;
     }
   }
+  @media (max-width: 500px) {
+    .imagen__titulo:hover {
+      transform: translate(0.1%);
+      width: 25rem;
+    }
+  }
 }
